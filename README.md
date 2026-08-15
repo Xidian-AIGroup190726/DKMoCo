@@ -2,6 +2,9 @@
 ## Installation
 Clone the repository and run
 
+```conda env create --name DKMoCo --file env.yml
+conda activate DKMoCo```
+
 ## Pretrain and Evaluation
 
 Two-Stage Pre-training
@@ -10,7 +13,7 @@ Two-Stage Pre-training
 
 Fine-tuning and Testing
 
-```python -m Downstream.train_and_test.py```
+```python -m Downstream.train_and_test```
 
 ## Xi'an Urban Dataset
 
