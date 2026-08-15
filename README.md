@@ -11,11 +11,15 @@ conda activate DKMoCo
 
 Two-Stage Pre-training
 
-```python -m Pretrained.train_moco```
+```bash
+python -m Pretrained.train_moco
+```
 
 Fine-tuning and Testing
 
-```python -m Downstream.train_and_test```
+```
+python -m Downstream.train_and_test
+```
 
 ## Xi'an Urban Dataset
 
