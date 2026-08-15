@@ -2,17 +2,17 @@
 ## Installation
 Clone the repository and run
 
-# Pretrain and Evaluation
+## Pretrain and Evaluation
 
-Two-Stage Pre-training
+1) Two-Stage Pre-training
 
 ```python -m Pretrained.train_moco```
 
-Fine-tuning and Testing
+2) Fine-tuning and Testing
 
 ```python -m Downstream.train_and_test.py```
 
-# Xi'an Urban Dataset
+## Xi'an Urban Dataset
 
 We released the xi'an urban dataset in the xian urban.zip
 
