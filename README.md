@@ -2,7 +2,9 @@
 ## Installation
 Clone the repository and run
 
-```conda env create --name DKMoCo --file env.yml conda activate DKMoCo```
+```bash
+conda env create --name DKMoCo --file env.yml
+conda activate DKMoCo
 
 ## Pretrain and Evaluation
 
