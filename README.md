@@ -2,7 +2,7 @@
 ## Installation
 Clone the repository and run
 
-```bash
+```
 conda env create --name DKMoCo --file env.yml
 conda activate DKMoCo
 ```
@@ -11,7 +11,7 @@ conda activate DKMoCo
 
 Two-Stage Pre-training
 
-```bash
+```
 python -m Pretrained.train_moco
 ```
 
